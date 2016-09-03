@@ -1,6 +1,7 @@
 window.onload = function(){
 	checkBox();
 	deleteFuc();
+	setone();
 }
 
 var checkBox = function (){
@@ -67,5 +68,17 @@ var deleteFuc = function(){
 	}
 	 
 
+}
+
+
+var setone = function(){
+	var input = document.getElementsByTagName('input');
+	for (var i = 0; i < input.length; i++) {
+		input[i].value = 1;
+		// if (input[i].value<0) {
+		// 	// this.value = 0;
+		// 	console.log(000)
+		// };
+	};
 }
 	

@@ -186,6 +186,8 @@ body{
 	border-top: 1px solid #e0e0e0;
 	border-bottom: 1px solid #e0e0e0;
 	float: left;
+	text-align: center;
+	
 }
 .jd-shop .jd-shop-con .con-product .con-product-box .option .change-box-right{
 	width: 32px;
